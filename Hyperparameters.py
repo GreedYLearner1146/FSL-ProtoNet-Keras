@@ -11,3 +11,5 @@ query_samples_per_class = 5 # Number of query samples per class.
 n_way = 5   # Number of class revealed per episode
 k_shot = 5  # Number of support shot.
 query_samples_per_class = 25 # Number of query samples per class.
+
+num_epochs = 100 # Number of Epoch.
