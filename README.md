@@ -16,6 +16,10 @@ The diagram that illustrates the overall working of the few-shot prototypical ne
 - Run training.py to begin the training process.
 - Finally, run eval.py to evaluate the trained model on the meta-test dataset.
 
+# Weights file
+
+The weight file is found as 5-way-1-shot-protonet-keras.weights.h5 and 5-way-5-shot-protonet-keras.weights.h5 for 1-shot and 5-shot learning respectively.
+
 # Relevant Papers
 
 [1] J. Snell, K. Swersky, and R. Zemel, “Prototypical networks for few-shot learning,” Advances in neural information processing systems, vol. 30, 2017. \
