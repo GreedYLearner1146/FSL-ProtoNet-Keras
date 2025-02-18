@@ -25,4 +25,4 @@ The preliminary weight file is found as 5-way-1-shot-protonet-keras.weights.h5 a
 
 [1] J. Snell, K. Swersky, and R. Zemel, “Prototypical networks for few-shot learning,” Advances in neural information processing systems, vol. 30, 2017. \
 [2] A. Parnami and M. Lee, “Learning from few examples: A summary of approaches to few-shot learning,” arXiv preprint arXiv:2203.04291, 2022. \
-[3] ] B. Oreshkin, P. Rodr´ıguez L´opez, and A. Lacoste, “Tadam: Task dependent adaptive metric for improved few-shot learning,” Advances in neural information processing systems, vol. 31, 2018.
+[3] B. Oreshkin, P. Rodr´ıguez L´opez, and A. Lacoste, “Tadam: Task dependent adaptive metric for improved few-shot learning,” Advances in neural information processing systems, vol. 31, 2018.
