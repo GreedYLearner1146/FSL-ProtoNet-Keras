@@ -2,11 +2,9 @@
 This is the code repository for Few-Shot Prototypical Network [1] in Keras for CIFAR-FS Dataset.
 A complementary medium article for Few-Shot Prototypical Learning in Keras will be available soon.
 
-The diagram that illustrates the overall working of the few-shot prototypical network, and is extracted from the excellent review paper by Panami and Lee [2]. 
+The diagram that illustrates the overall working of the few-shot prototypical network, and is extracted from the excellent review paper by Parnami and Lee [2]. 
 
 ![image](https://github.com/user-attachments/assets/857c8396-ce62-42d4-a716-187d22427d27)
-
-
 
 
 # Code Instructions
@@ -23,3 +21,4 @@ The diagram that illustrates the overall working of the few-shot prototypical ne
 # Relevant Papers
 
 [1] J. Snell, K. Swersky, and R. Zemel, “Prototypical networks for few-shot learning,” Advances in neural information processing systems, vol. 30, 2017.
+[2] A. Parnami and M. Lee, “Learning from few examples: A summary of approaches to few-shot learning,” arXiv preprint arXiv:2203.04291, 2022. 
