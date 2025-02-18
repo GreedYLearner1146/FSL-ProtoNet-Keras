@@ -4,7 +4,7 @@ The diagram that illustrates the overall working of the few-shot prototypical ne
 
 ![image](https://github.com/user-attachments/assets/857c8396-ce62-42d4-a716-187d22427d27)
 
-(This repo may be subjected to updates at times)
+**(This repo may be subjected to updates at times)**
 
 # Code Instructions
 
@@ -19,7 +19,7 @@ The diagram that illustrates the overall working of the few-shot prototypical ne
 
 # Weights file
 
-The weight file is found as 5-way-1-shot-protonet-keras.weights.h5 and 5-way-5-shot-protonet-keras.weights.h5 for 1-shot and 5-shot learning respectively.
+The preliminary weight file is found as 5-way-1-shot-protonet-keras.weights.h5 and 5-way-5-shot-protonet-keras.weights.h5 for 1-shot and 5-shot learning respectively.
 
 # Relevant Papers
 
