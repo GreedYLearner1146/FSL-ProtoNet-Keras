@@ -1,5 +1,5 @@
 # FSL-ProtoNet-Keras
-This is the code repository for Few-Shot Prototypical Network [1] in Keras for CIFAR-FS Dataset, first introduced by Bertinetto et al. [3].
+This is the code repository for Few-Shot Prototypical Network [1] in Keras for FC-100 Dataset, first introduced by Bertinetto et al. [3].
 The diagram that illustrates the overall working of the few-shot prototypical network is shown below, and is extracted from the excellent review paper by Parnami and Lee [2]. 
 
 ![image](https://github.com/user-attachments/assets/857c8396-ce62-42d4-a716-187d22427d27)
@@ -7,7 +7,7 @@ The diagram that illustrates the overall working of the few-shot prototypical ne
 
 # Code Instructions
 
-- Run Data_loading.py which load the CIFAR-100 dataset and split them into the meta-training, valid and test dataset to form the CIFAR-FS dataset.
+- Run Data_loading.py which load the CIFAR-100 dataset and split them into the meta-training, valid and test dataset to form the FC-100 dataset.
 - Run Hyperparameters.py which specify the important hyperparameters for the training, for instance the n_way, k_shot, queries_samples_per_class, and epoch.
 - Run Support_Query_Set.py which store the support set and the query set, each comprising of the (img, label) tuple-like configuration.
 - Run Compute_prototypes.py which compute the prototypes for each selected class to be used for computing the euclidean distance with the query class embedding.
