@@ -12,3 +12,7 @@ A complementary medium article for Few-Shot Prototypical Learning in Keras will 
 - Run Conv_Embedding.py that contained the code for the Conv4 and ResNet12 feature extractor which are best suited for the CIFAR-FS dataset. Choose one feature extractor for the subsequent training.
 - Run training.py to begin the training process.
 - Finally, run eval.py to evaluate the trained model on the meta-test dataset.
+
+# Relevant Papers
+
+[1] J. Snell, K. Swersky, and R. Zemel, “Prototypical networks for few-shot learning,” Advances in neural information processing systems, vol. 30, 2017.
