@@ -1,7 +1,5 @@
 # FSL-ProtoNet-Keras
-This is the code repository for Few-Shot Prototypical Network [1] in Keras for CIFAR-FS Dataset.
-A complementary medium article for Few-Shot Prototypical Learning in Keras will be available soon.
-
+This is the code repository for Few-Shot Prototypical Network [1] in Keras for CIFAR-FS Dataset, first introduced by Bertinetto et al. [3].
 The diagram that illustrates the overall working of the few-shot prototypical network is shown below, and is extracted from the excellent review paper by Parnami and Lee [2]. 
 
 ![image](https://github.com/user-attachments/assets/857c8396-ce62-42d4-a716-187d22427d27)
@@ -21,4 +19,5 @@ The diagram that illustrates the overall working of the few-shot prototypical ne
 # Relevant Papers
 
 [1] J. Snell, K. Swersky, and R. Zemel, “Prototypical networks for few-shot learning,” Advances in neural information processing systems, vol. 30, 2017. \
-[2] A. Parnami and M. Lee, “Learning from few examples: A summary of approaches to few-shot learning,” arXiv preprint arXiv:2203.04291, 2022. 
+[2] A. Parnami and M. Lee, “Learning from few examples: A summary of approaches to few-shot learning,” arXiv preprint arXiv:2203.04291, 2022. \
+[3] L. Bertinetto, J. F. Henriques, P. H. Torr, and A. Vedaldi, “Meta-learning with differentiable closed-form solvers,” arXiv preprint arXiv:1805.08136,2018. 
