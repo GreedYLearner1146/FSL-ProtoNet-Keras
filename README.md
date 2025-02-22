@@ -1,5 +1,5 @@
 # FSL-ProtoNet-Keras
-This is my best attempt in creating the code repository for Few-Shot Prototypical Network [1] in Keras for FC-100 Dataset, first introduced by Oreshkin et al. [3].
+This is a preliminary attempt in creating the code repository for Few-Shot Prototypical Network [1] in Keras for FC-100 Dataset, first introduced by Oreshkin et al. [3].
 The diagram that illustrates the overall working of the few-shot prototypical network is shown below, and is extracted from the excellent review paper by Parnami and Lee [2]. 
 
 ![image](https://github.com/user-attachments/assets/857c8396-ce62-42d4-a716-187d22427d27)
