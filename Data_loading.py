@@ -18,13 +18,12 @@ x_test = x_test.astype('float32') / 255.0
 y_train = y_train.flatten()
 y_test = y_test.flatten()
 
-# Split into train, val, and test classes. The number represents the class indices.
-train_classes_idx = [30, 46, 66, 97, 0, 43, 32,  4, 99, 16, 86 , 57,  50, 39, 18, 36, 14, 67, 81,  8, 96, 93, 75, 53, 6, 22, 15, 55, 92,  3, 79,
-                     51, 21, 34,  2, 41, 13, 62, 49,  5, 58,  7,  9, 98, 45, 56 ,20, 63, 28, 83, 29, 17, 60, 69, 90, 87, 88, 64, 74, 47]
-
-val_classes_idx = [37, 23, 38, 33, 89, 72, 77, 52, 65, 10, 12, 78, 85, 25, 31, 19, 59, 40, 42, 35]
-
-test_classes_idx = [71, 82, 44, 84, 68, 94, 91, 70, 73, 61, 24, 27, 26, 80, 95, 54,  1, 76, 11, 48]
+# Split into train, val, and test classes, in accordance to the FC-100 config in TADAM. The number represents the class indices.
+train_classes_idx = [6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,
+                     31,32,33,34,46,47,48,49,50,51,52,53,54,55,76,77,78,79,80,86,87,88,89,90,
+                     91,92,93,94,95,96,97,98,99,100]
+val_classes_idx = [41,42,43,44,45,56,57,58,59,60,66,67,68,69,70,81,82,83,84,85]
+test_classes_idx = [0,1,2,3,4,36,37,38,39,40,61,62,63,64,65,71,72,73,74,75]
 
 # Filter data for each split
 def filter_data(x, y, classes):
