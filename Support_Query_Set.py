@@ -70,3 +70,12 @@ def create_episode(x_data, y_data, n_way, k_shot, query_samples_per_class):
     query_labels = np.concatenate([y for _, y in query_set])
 
     return (support_images, support_labels), (query_images, query_labels)
+
+(support_set, support_labels), (query_set, query_labels) = create_episode(x_train_fs, y_train_fs, n_way, k_shot, query_samples_per_class) # training set
+(support_val_set, support_val_labels), (query_val_set, query_val_labels) = create_episode(x_val_fs, y_val_fs, n_way, k_shot, query_samples_per_class) # Valid set
+
+print("Support set shape:", support_set.shape)
+print("Query set shape:", query_set.shape)
+
+print("Support val set shape:", support_val_set.shape)
+print("Query val set shape:", query_val_set.shape)
